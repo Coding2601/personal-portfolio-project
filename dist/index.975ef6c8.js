@@ -23613,13 +23613,13 @@ var _stylesCss = require("./styles.css");
  */ const siteProps = {
     name: "Shivam Krishnaraj Mishra",
     title: "Full Stack Web Developer & ML Developer",
-    email: "SHivam.Mishra@studentambassadors.com",
-    gitHub: "microsoft",
-    instagram: "microsoft",
-    linkedIn: "satyanadella",
+    email: "Shivam.Mishra@studentambassadors.com",
+    gitHub: "Coding2601",
+    instagram: "skmishra2003",
+    linkedIn: "shivam-mishra-0a52a8228",
     medium: "",
-    twitter: "microsoft",
-    youTube: "Code"
+    twitter: "shivamkmishra9",
+    youTube: ""
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
@@ -23706,23 +23706,21 @@ var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackground
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+ */ const description = "I'm a Full Stack Developer student studying at IIIT Guwahati. I enjoy creating unique and simplistic web application in creative ways.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "Full Stack Developer",
+    "Machine Learnnig",
+    "Java Developer",
+    "Django Developer"
 ];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+ */ const detailOrQuote = "I am passionate about solving problems in new creative ways to drive innovation. By creating web application I continually look for new and better ways to make tech accessible by all.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -23734,7 +23732,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 53,
+                lineNumber: 51,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -23750,7 +23748,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -23758,12 +23756,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -23778,17 +23776,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 76,
+                                lineNumber: 74,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 79,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -23798,19 +23796,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 52,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 52,
+        lineNumber: 50,
         columnNumber: 5
     }, undefined);
 };
@@ -25035,9 +25033,9 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _womanWithTabletJpg = require("../images/woman-with-tablet.jpg");
-var _womanWithTabletJpgDefault = parcelHelpers.interopDefault(_womanWithTabletJpg);
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+ */ var _jsPortfolioSitePng = require("../images/js-portfolio-site.png");
+var _jsPortfolioSitePngDefault = parcelHelpers.interopDefault(_jsPortfolioSitePng);
+const imageAltText = "Shivam Krishnaraj Mishra - Full Stack Web Develoepr - ML Developer";
 const Home = ({ name, title })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -25045,7 +25043,7 @@ const Home = ({ name, title })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _womanWithTabletJpgDefault.default),
+                src: (0, _jsPortfolioSitePngDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -25061,6 +25059,9 @@ const Home = ({ name, title })=>{
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        style: {
+                            color: "white"
+                        },
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
@@ -25068,6 +25069,9 @@ const Home = ({ name, title })=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        style: {
+                            color: "white"
+                        },
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
@@ -25128,13 +25132,13 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2BhPN","react":"3Pot1","../images/down-arrow.svg":"jOK1T","prop-types":"7e9pu","../images/woman-with-tablet.jpg":"FgC04","@parcel/transformer-js/src/esmodule-helpers.js":"gqjel","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lBmhW"}],"jOK1T":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"2BhPN","react":"3Pot1","../images/down-arrow.svg":"jOK1T","prop-types":"7e9pu","../images/js-portfolio-site.png":"l7lXr","@parcel/transformer-js/src/esmodule-helpers.js":"gqjel","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"lBmhW"}],"jOK1T":[function(require,module,exports) {
 module.exports = require("d386c0e0245e522b").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"d386c0e0245e522b":"ax8sF"}],"FgC04":[function(require,module,exports) {
-module.exports = require("f1581049a385904").getBundleURL("bLxZJ") + "woman-with-tablet.b3bf1156.jpg" + "?" + Date.now();
+},{"d386c0e0245e522b":"ax8sF"}],"l7lXr":[function(require,module,exports) {
+module.exports = require("51e3eb21369117a0").getBundleURL("bLxZJ") + "js-portfolio-site.2dd2335c.png" + "?" + Date.now();
 
-},{"f1581049a385904":"ax8sF"}],"lCaEt":[function(require,module,exports) {
+},{"51e3eb21369117a0":"ax8sF"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -25172,24 +25176,24 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
-        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+        title: "GrammarFixer",
+        description: "A clone of grammarly application, to fix spell, punctuation and grammar errors",
+        url: "https://github.com/Coding2601/GrammarFixer"
     },
     {
-        title: "Web Development for Beginners",
-        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-        url: "https://github.com/microsoft/web-dev-for-beginners"
+        title: "WeatherNavigator",
+        description: "A weather application to get the weather of any city in the world",
+        url: "https://github.com/Coding2601/WeatherNavigator"
     },
     {
-        title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+        title: "Alarm Clock",
+        description: "A simple alarm clock application to set alarm and get notified",
+        url: "https://github.com/Coding2601/Alarm-Clock"
     },
     {
-        title: "GitHub Codespaces and github.dev",
-        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
+        title: "To-Do-List",
+        description: "A simple to-do list application to keep track of your daily tasks",
+        url: "https://github.com/Coding2601/To-Do-List"
     }
 ];
 const Portfolio = ()=>{
