@@ -26,13 +26,13 @@ import "./styles.css";
 const siteProps = {
   name: "Shivam Krishnaraj Mishra",
   title: "Full Stack Web Developer & ML Developer",
-  email: "SHivam.Mishra@studentambassadors.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  email: "Shivam.Mishra@studentambassadors.com",
+  gitHub: "Coding2601",
+  instagram: "skmishra2003",
+  linkedIn: "shivam-mishra-0a52a8228",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "shivamkmishra9",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";
