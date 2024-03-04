@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "GrammarFixer",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A clone of grammarly application, to fix spell, punctuation and grammar errors",
+    url: "https://github.com/Coding2601/GrammarFixer",
   },
   {
-    title: "Web Development for Beginners",
+    title: "WeatherNavigator",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A weather application to get the weather of any city in the world",
+    url: "https://github.com/Coding2601/WeatherNavigator",
   },
   {
-    title: "My Resume Site",
+    title: "Alarm Clock",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A simple alarm clock application to set alarm and get notified",
+    url: "https://github.com/Coding2601/Alarm-Clock",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "To-Do-List",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A simple to-do list application to keep track of your daily tasks",
+    url: "https://github.com/Coding2601/To-Do-List",
   },
 ];
 
